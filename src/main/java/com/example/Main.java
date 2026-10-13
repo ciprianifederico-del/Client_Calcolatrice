@@ -17,9 +17,13 @@ public class Main {
 
         System.out.println("Inserisci il primo numero:");
         String num1 = scanner.nextLine();
+        out.println(num1);
         System.out.println("Inserisci il secondo numero:");
         String num2 = scanner.nextLine();
+        out.println(num2);
         System.out.println("Inserisci l'operatore:");
         String op= scanner.nextLine();
+        out.println(op);
+        out.flush();
     }
 }
